@@ -1,8 +1,7 @@
 require "./ecosystem.rb"
 
 #(obediance(head), speed(RL), footing(FL), stamina(RL), build(FL)) -> 1 bad to 100 good
-#------>Blood Type only influence assembly parts, best blood more assemble choices ?
-#Rhesus true -> head obe +++
+#Same blood type for Head+FL+RL = Obediance boost
 
 zhorses = {
   0=>Zhorse.new(65, 70, 40, 80, 40),
