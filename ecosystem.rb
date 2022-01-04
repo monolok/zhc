@@ -158,8 +158,9 @@ class Race
 			#print "Round #{round}: 1st:#{@output[0][1]}, 2nd:#{@output[1][1]} and 3rd:#{@output[2][1]}!!"
 			round+=1
 		end
-		print @output.map {|k,v| v}.first(3)
-		#print "Winner is zHorse #{@output[0][1]} ! followed by zHorse number #{@output[1][1]} and #{@output[2][1]}"	
+		#print @output.map {|k,v| v}.first(3)
+		#print "Winner is zHorse #{@output[0][1]} ! followed by zHorse number #{@output[1][1]} and #{@output[2][1]}"
+		print @output	
 	end
 
 	def winner_testing_horse(zhorses, zhorse_id, top_n)
